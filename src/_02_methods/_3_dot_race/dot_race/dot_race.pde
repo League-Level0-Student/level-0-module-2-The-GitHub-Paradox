@@ -18,7 +18,9 @@ ellipse(x, 100, 50, 50);
     //3. Make the ellipse a nice color
 
     //4. If the mouse is pressed change the x value so that the dot moves to the right
-    
+    if (mousePressed == true){
+      x += 5;
+    }
     //5. If your dot moves slowly, make it move faster. If it moves too quickly, slow it down
     //  (you have to figure out what part of your code to change)
 
