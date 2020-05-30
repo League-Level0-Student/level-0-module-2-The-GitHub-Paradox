@@ -7,14 +7,18 @@ void setup(){
      size(500,500);
      
      // Call the makeIceCreamCone() method below to make an ice cream cone
-
+makeIceCreamCone();
      // Use the addScoop method below to add as many scoops of ice cream as you want
+addScoop("Vanilla");
+addScoop("chocolate");
+addScoop("Strawberry");
      // Choose a different flavor for each scoop
 
      // Use the method provided to add some sprinkles to your ice cream
-
+addSprinkle(250);
      // Write code to add a cherry to the top of your ice cream. Hint: ellipse
-
+fill(#FF0D0D);
+ellipse(250, 50, 50, 50);
 }
 
 /***********  These are methods for you to use. DON'T CHANGE CODE BELOW THIS LINE !!!   *****************/

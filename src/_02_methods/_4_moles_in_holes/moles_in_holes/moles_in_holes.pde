@@ -15,7 +15,10 @@ void setup() {
 void draw() {
 
 /* Write code here that uses the method below to put a mole in each of the holes */
-
+drawMole(200, 200);
+drawMole(70, 119);
+drawMole(300, 60);
+drawMole(297, 350);
 
 }
 
