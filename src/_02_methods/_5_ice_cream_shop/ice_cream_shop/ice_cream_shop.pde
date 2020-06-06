@@ -15,10 +15,12 @@ addScoop("Strawberry");
      // Choose a different flavor for each scoop
 
      // Use the method provided to add some sprinkles to your ice cream
-addSprinkle(250);
+addSprinkle(230);
      // Write code to add a cherry to the top of your ice cream. Hint: ellipse
-fill(#FF0D0D);
+fill(#FF0303);
 ellipse(250, 50, 50, 50);
+fill(#03FF3B);
+rect(245, 5, 10, 25);
 }
 
 /***********  These are methods for you to use. DON'T CHANGE CODE BELOW THIS LINE !!!   *****************/
